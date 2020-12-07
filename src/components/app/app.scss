@@ -1,8 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;900&display=swap");
+
+//font-family: 'Open Sans', sans-serif;
+//font-family: 'Roboto', sans-serif;
+
+$theme-color: #fd5a0d;
+$title-font: "Open Sans", sans-serif;
+$text-font: "Roboto", sans-serif;
+$black: #000000;
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.app {
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
 }
