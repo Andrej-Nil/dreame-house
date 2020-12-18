@@ -1,5 +1,10 @@
 .header__top {
+  position: absolute;
+  top: 0;
+  left: 0;
   display: flex;
   height: 120px;
+  width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  margin-bottom: 150px;
 }

@@ -3,10 +3,9 @@
 .logo__link {
   position: relative;
   padding-left: 60px;
-
-  color: #000000;
+  color: $black-color;
   font-family: $title-font;
-  font-size: 28px;
+  letter-spacing: 0;
   font-weight: 900;
 
   &::before {

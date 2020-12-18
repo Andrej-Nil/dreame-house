@@ -1,17 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:wght@300;400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400&display=swap");
 
 //font-family: 'Open Sans', sans-serif;
 //font-family: 'Roboto', sans-serif;
 
 $theme-color: #fd5a0d;
+$white-color: #fff;
+$ligth-grey: #9b9b9b;
+$black-color: #000;
 $title-font: "Open Sans", sans-serif;
 $text-font: "Roboto", sans-serif;
-$black: #000000;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: $text-font;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $title-font;
+  letter-spacing: 0.1em;
 }
 
 img {
@@ -25,4 +43,37 @@ a {
 ul,
 li {
   list-style-type: none;
+}
+
+.app {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 100%;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 5px;
+  background-color: $theme-color;
+  color: $white-color;
+  cursor: pointer;
+  transition: 0.3s ease;
+  &:hover {
+    background-color: $theme-color + 000030;
+  }
+}
+
+.button-white {
+  background-color: $white-color;
+  color: $black-color;
+  &:hover {
+    background-color: $white-color - 000020;
+  }
 }

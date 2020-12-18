@@ -9,7 +9,7 @@ const HeaderBg = () => {
   const { headerBg } = service
 
   return (
-    <img className='header-bg' src={headerBg} alt='test' />
+    <img className='header-bg' src={headerBg} alt='' />
   )
 };
 

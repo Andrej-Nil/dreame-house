@@ -1,0 +1,49 @@
+@import "../../app/app.scss";
+
+._absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.presentation {
+  max-width: 630px;
+  width: 100%;
+}
+
+.presentation__content {
+  display: inline-block;
+  margin-bottom: 40px;
+
+  background-color: $white-color;
+  border-radius: 5px;
+  padding: 20px 30px;
+  color: $black-color;
+}
+
+.presentation__title {
+  font-size: 40px;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.presentation__slogan {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.presentation__text {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.presentation__buttons {
+  text-transform: uppercase;
+}
+
+.presentation__btn {
+  margin-right: 50px;
+  font-weight: 600;
+}
