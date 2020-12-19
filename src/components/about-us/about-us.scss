@@ -1,0 +1,39 @@
+@import "../app/app.scss";
+
+.about-us {
+  padding: 90px 0 70px 0;
+  background-color: $bg-color;
+}
+
+.about-us__content {
+  display: flex;
+  align-items: start;
+}
+
+.about-us__text-wrap {
+  width: 50%;
+  margin-top: 70px;
+  background-color: $theme-color;
+  padding: 100px 170px;
+}
+
+.about-us__text {
+  position: relative;
+
+  color: $white-color;
+  line-height: 1.5;
+}
+
+.about-us__text-dash {
+  position: absolute;
+  top: 8px;
+  left: -70px;
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: $white-color;
+}
+
+.about-us__img {
+  width: 50%;
+}

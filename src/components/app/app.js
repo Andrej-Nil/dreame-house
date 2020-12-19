@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './app.scss'
-
+import './app.scss';
 import Header from '../header-components/header';
+import AboutUs from '../about-us';
 
 export default class App extends Component {
 
@@ -11,7 +11,7 @@ export default class App extends Component {
       <div className="app">
 
         <Header />
-
+        <AboutUs />
       </div>
     )
 
